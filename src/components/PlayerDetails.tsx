@@ -54,7 +54,7 @@ export default function PlayerDetails({
   if (!playerId) {
     return (
       <div className="h-full text-xl flex text-center items-center p-4">
-        Click on an agent on the map to see chat history.
+        Click on a tomb on the map to see chat history.
       </div>
     );
   }

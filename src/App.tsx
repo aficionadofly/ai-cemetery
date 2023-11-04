@@ -8,6 +8,7 @@ import LoginButton from './components/buttons/LoginButton.tsx';
 import { useState } from 'react';
 import ReactModal from 'react-modal';
 import Button from './components/buttons/Button.tsx';
+import MusicButton from './components/buttons/MusicButton.tsx';
 import InteractButton from './components/buttons/InteractButton.tsx';
 import FreezeButton from './components/FreezeButton.tsx';
 import { MAX_HUMAN_PLAYERS } from '../convex/constants.ts';
@@ -67,11 +68,11 @@ export default function Home() {
 
       <div className="w-full min-h-screen relative isolate overflow-hidden p-6 lg:p-8 shadow-2xl flex flex-col justify-center">
         <h1 className="mx-auto text-center text-6xl sm:text-8xl lg:text-9xl font-bold font-display leading-none tracking-wide game-title">
-          AI Town
+          Interative Cemetery
         </h1>
 
         <p className="mx-auto my-4 text-center text-xl sm:text-2xl text-white leading-tight shadow-solid">
-          A virtual town where AI characters live, chat and socialize.
+          A virtual cemetery where we can chat with 5 people that died in the same place within the same day.
           <br />
           Log in to join the town and the conversation!
         </p>
@@ -81,7 +82,7 @@ export default function Home() {
         <footer className="absolute bottom-0 left-0 w-full flex items-center mt-4 gap-3 p-6 flex-wrap pointer-events-none">
           <div className="flex gap-4 flex-grow pointer-events-none">
             <FreezeButton />
-            {/* <MusicButton /> */}
+            <MusicButton />
             {/* <Button href="https://github.com/a16z-infra/ai-town" imgUrl={starImg}>
               Star
             </Button> */}
