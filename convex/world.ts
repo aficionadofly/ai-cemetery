@@ -98,7 +98,7 @@ export const joinWorld = mutation({
     const { tokenIdentifier } = identity;
     return await insertInput(ctx, world._id, 'join', {
       name: identity.givenName,
-      character: characters[Math.floor(Math.random() * characters.length)].name,
+      character: 'player',
       description: `${identity.givenName} is a human player`,
       tokenIdentifier,
     });

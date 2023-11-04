@@ -97,7 +97,7 @@ export const Character = ({
       <AnimatedSprite
         ref={ref}
         isPlaying={isMoving}
-        textures={spriteSheet.animations[direction]}
+        textures={spriteSheet.animations['constant']}
         animationSpeed={speed}
         anchor={{ x: 0.5, y: 0.5 }}
       />
