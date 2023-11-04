@@ -33,7 +33,8 @@ export const getBackgroundMusic = query({
       .order('desc')
       .first();
     if (!music) {
-      return '/ai-town/assets/background.mp3';
+      return '/ai-town/assets/dancing-pallbearers.mp3';
+      // return '/ai-town/assets/background.mp3';
     }
     const url = await ctx.storage.getUrl(music.storageId);
     if (!url) {
