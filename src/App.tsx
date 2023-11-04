@@ -1,16 +1,12 @@
 import Game from './components/Game.tsx';
 
 import { ToastContainer } from 'react-toastify';
-import a16zImg from '../assets/a16z.png';
-import convexImg from '../assets/convex.svg';
-import starImg from '../assets/star.svg';
 import helpImg from '../assets/help.svg';
 import { UserButton } from '@clerk/clerk-react';
 import { Authenticated, Unauthenticated } from 'convex/react';
 import LoginButton from './components/buttons/LoginButton.tsx';
 import { useState } from 'react';
 import ReactModal from 'react-modal';
-import MusicButton from './components/buttons/MusicButton.tsx';
 import Button from './components/buttons/Button.tsx';
 import InteractButton from './components/buttons/InteractButton.tsx';
 import FreezeButton from './components/FreezeButton.tsx';
@@ -85,21 +81,15 @@ export default function Home() {
         <footer className="absolute bottom-0 left-0 w-full flex items-center mt-4 gap-3 p-6 flex-wrap pointer-events-none">
           <div className="flex gap-4 flex-grow pointer-events-none">
             <FreezeButton />
-            <MusicButton />
-            <Button href="https://github.com/a16z-infra/ai-town" imgUrl={starImg}>
+            {/* <MusicButton /> */}
+            {/* <Button href="https://github.com/a16z-infra/ai-town" imgUrl={starImg}>
               Star
-            </Button>
+            </Button> */}
             <InteractButton />
             <Button imgUrl={helpImg} onClick={() => setHelpModalOpen(true)}>
               Help
             </Button>
           </div>
-          <a href="https://a16z.com">
-            <img className="w-8 h-8 pointer-events-auto" src={a16zImg} alt="a16z" />
-          </a>
-          <a href="https://convex.dev">
-            <img className="w-20 h-8 pointer-events-auto" src={convexImg} alt="Convex" />
-          </a>
         </footer>
         <ToastContainer position="bottom-right" autoClose={2000} closeOnClick theme="dark" />
       </div>
