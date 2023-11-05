@@ -27,12 +27,12 @@ export default function Home() {
         <div className="font-body">
           <h1 className="text-center text-6xl font-bold font-display game-title">Help</h1>
           <p>
-            Welcome to AI town. AI town supports both anonymous <i>spectators</i> and logged in{' '}
+            Welcome to AI cemetery. AI cemetery supports both anonymous <i>spectators</i> and logged in{' '}
             <i>interactivity</i>.
           </p>
           <h2 className="text-4xl mt-4">Spectating</h2>
           <p>
-            Click and drag to move around the town, and scroll in and out to zoom. You can click on
+            Click and drag to move around the cemetery, and scroll in and out to zoom. You can click on
             an individual character to view its chat history.
           </p>
           <h2 className="text-4xl mt-4">Interactivity</h2>
