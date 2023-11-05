@@ -1,6 +1,24 @@
 # AI Cemetery 🪦🏠💻💌🪦
 
+The motivation of this project is about when I stand before a tomb, I am unavoidable to think the story of tomb ownwer.
+
+Before,we paint, we wirte, we photo to record the story, and in our era, we can use ai to train our character and the person day after can interactively know our story  
+
+This project  is open-soursed and based on ai-town project""https://github.com/a16z-infra/ai-town"
+
 [Live Demo](https://cemetery.cat)
+
+For donataion:  aicemetery.eth
+
+For contact:catslovefish.eth 
+email:aficionadofly@gmail.com
+
+
+
+
+
+
+
 
 <img width="1454" alt="Screen Shot 2023-08-14 at 10 01 00 AM" src="https://github.com/a16z-infra/ai-town/assets/3489963/a4c91f17-23ed-47ec-8c4e-9f9a8505057d">
 
